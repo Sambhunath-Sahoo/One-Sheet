@@ -1,0 +1,436 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* ************************************************* menu-container ************************************************* */
+.menu-container {
+    height: 6rem;
+    align-items: center;
+}
+
+.option-container {
+    border: 1px solid white;
+    width: 100%;
+    min-height: 3.5rem;
+    display: flex;
+}
+
+.icon {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function-container {
+    width: calc( 100vw - 4rem - 17rem );
+}
+
+.name-container {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    min-width: 3rem;
+}
+
+.name {
+    font-size: 22px;
+    outline-color: silver;
+    color: gray;
+    padding-left: 7px;
+}
+
+.name:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.nos-container {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    opacity: 65%;
+}
+
+.nos-container * {
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.new:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.open-me:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.save:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.account-left {
+    width: 17rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:3rem;
+}
+
+.share {
+    text-align: center;
+    min-height: 1.7rem;
+    min-width: 5rem;
+    background-color: green;
+    color: white;
+    border-radius: .2rem;
+    font-size: 17px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.photo {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* --------------------Format container------------------------ */
+.formate-container {
+    border-top: 1px solid silver;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    opacity: 70%;
+}
+
+.formate-container>*{
+    height: 60%;
+}
+
+.font-family {
+    width: 9rem;
+    font-size: 16px;
+    border-color: white;
+    border-right: 1px solid silver;
+    padding-left: 10px;
+}
+
+.font-family:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.font-size {
+    width: 4rem;
+    font-size: 16px;
+    border-color: white;
+    border-right: 1px solid silver;
+}
+
+.font-size:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border-radius: 10%;
+}
+
+.bui-container {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    border-color: white;
+    border-right: 1px solid silver;
+}
+
+
+.bold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid white;
+}
+
+.bold:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid white;
+}
+
+.underline:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+.italic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-right: 1px solid white;
+}
+
+.italic:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+.align-container {
+    width: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid silver;
+}
+
+.left, .right, .center ,.font-color, .bg{
+    font-size: 20px;
+}
+
+.left:hover, .center:hover, .right:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+.color-container {
+    width: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid silver;
+}
+
+.font-color:hover, .bg:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: x-large;
+    border-radius: 10%;
+}
+
+/*  *************************************************Formula / Address bar ************************************************* */
+
+.formula-container {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid silver;
+}
+
+.formula-container>* {
+    height: 80%;
+}
+
+.address-input {
+    width: 8rem;
+    font-size: medium;
+    padding-left: 9px;
+    outline: none;
+    border: white;
+    border-right: 1px solid silver;
+}
+
+.seperator {
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid silver;
+    opacity: 32%;
+}
+
+.formula-input {
+    width: calc(100vw - 6rem);
+    font-size: medium;
+    padding-left: 9px;
+    outline: none;
+    border: white;
+    border-left: 1px solid silver;
+    opacity: 90%;
+}
+
+/* ************************************************* Grid container ************************************************* */
+.grid-container {
+    position: relative;
+    height: calc(100vh - ( 6rem + 2rem + 1.7rem));
+    background-color: #13121217;
+    overflow: auto;
+}
+
+.box {
+    height: 22px;
+    width: 2.7rem;
+    border: 1px solid #0a0a0a21;
+    outline-width: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+
+.left_box {
+    background-color: rgba(187, 187, 187, 0.701);
+}
+
+.top_row {
+    display: flex;
+    position: absolute;
+    left: 2.7rem;
+    top: 0rem;
+    height: 22px;
+    z-index: 100;
+    background-color: #eaeaea;
+    opacity: 70%;
+}
+
+.grid {
+    background-color: white;
+    left: 2.7rem;
+    top: 22px;
+    position: absolute;
+}
+
+.cell {
+    border: 0.01px solid #0a0a0a21;
+    outline-width: thin;
+    width: 6rem;
+    height: 22px;
+    outline-color:blue;
+    overflow: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.top {
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+
+/* ************************************************* Sheet container ************************************************* */
+
+.sheets-container {
+    background-color: #eaeaea;
+    height: 1.7rem;
+    display: flex;
+}
+
+.seperator.bottom {
+    min-width: 4.1rem;
+}
+
+.add-sheet_btn-container {
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    border-right: 1px solid rgba(192, 192, 192, 0.497);
+}
+
+.add {
+    opacity: 70%;
+}
+
+.sheet-list {
+    width: calc(100vw - 4.1rem);
+    display: flex;
+    overflow: auto;
+}
+
+.sheet-list * {
+    border-right: 1px solid rgba(192, 192, 192, 0.497);
+}
+
+.sheet-list::-webkit-scrollbar {
+    display: none;
+}
+
+.sheet-list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.sheet {
+    min-width: 6rem;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+/*  -----------------------------********************---------------------------------- */
+
+.active {
+    background-color: white;
+    color: green;
+    border-top: 3px solid green;
+}
+
+.active-btn {
+    background-color: rgba(128, 128, 128, 0.293);
+    border-top: 3px solid green;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00000038;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #575151c9;
+}
